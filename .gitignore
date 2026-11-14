@@ -1,0 +1,17 @@
+# Secrets and local configuration
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+# Data
+*.sql
+*.dump
+*.sqlite
+*.db
+# Tooling
+node_modules/
+dist/
+.DS_Store
+Thumbs.db

@@ -55,8 +55,10 @@ These are intentions for a product under development, not statements of achieved
 | Area | State |
 |---|---|
 | Requirements and data model | In progress |
-| Application development | Not started |
+| Application development | In progress — an internal Windows desktop build is in testing with demonstration data only |
 | Public release | Not scheduled |
+
+**Progress update (November 2026).** The internal build currently covers sign-in, demonstration organisations, the chart of accounts, accounting periods and locks, journals, trial balance, profit and loss, balance sheet and general ledger, customers and suppliers, invoices and bills (not yet VAT invoices), receipts and payments with allocation, debtor and creditor ageing, an audit trail and encrypted local backups. Work on banking has started with reading bank statement files (CSV and OFX), with exact amounts and duplicate detection that also catches repeated lines within a single file. Statement matching and bank reconciliation come next. None of this is released, and it has not yet been reviewed by accounting, tax or security professionals.
 
 This repository will hold public documentation and selected application source code as development proceeds.
 
